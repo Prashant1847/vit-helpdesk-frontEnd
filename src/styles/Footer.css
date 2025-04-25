@@ -1,0 +1,77 @@
+.footer {
+  background: #ffffff;
+  padding: 3rem 2rem;
+  margin-top: 3rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer h2 {
+  color: #012970;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.instructions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.instruction-item {
+  padding: 1.5rem;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.instruction-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.instruction-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin: 0 0 1rem 0;
+  color: #1e40af;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.instruction-number {
+  color: #4a90e2;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.instruction-description {
+  margin: 0;
+  color: #4a5568;
+  line-height: 1.6;
+  white-space: pre-line;
+  padding-left: 2rem;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 2rem 1rem;
+  }
+
+  .instruction-item {
+    padding: 1rem;
+  }
+
+  .instruction-description {
+    padding-left: 1rem;
+  }
+} 

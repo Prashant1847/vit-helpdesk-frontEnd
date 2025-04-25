@@ -1,0 +1,40 @@
+.filePreview {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  background: #f9f9f9;
+}
+
+.previewImage {
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.fileDownload {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #333;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  background: #f0f0f0;
+  transition: background-color 0.2s;
+}
+
+.fileDownload:hover {
+  background: #e0e0e0;
+}
+
+.fileDownload i {
+  font-size: 1.2em;
+}
+
+.fileDownload span {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+} 

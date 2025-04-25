@@ -1,0 +1,27 @@
+.featureCard {
+  background: white;
+  padding: 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Horizontal center */
+  justify-content: center;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+}
+
+.featureIcon {
+  font-size: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.featureCard h3 {
+  margin-bottom: 1rem;
+  color: #2d3748;
+}
