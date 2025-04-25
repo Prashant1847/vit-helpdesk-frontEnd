@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../../../styles/FAQManagement.css';
+import '../../../styles/FaqManagement.css';
 import AdminHeading from '../../../components/ui/AdminHeading';
 
 import { toast } from 'react-toastify';
